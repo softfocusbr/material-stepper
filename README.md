@@ -31,10 +31,10 @@ dependencies {
 
 ## Preview
 
-![text](https://github.com/FrancisCan/MaterialStepper/blob/master/screenshot/text.png?raw=true)
-![progress](https://github.com/FrancisCan/MaterialStepper/blob/master/screenshot/progress.png?raw=true)
-![dots](https://github.com/FrancisCan/MaterialStepper/blob/master/screenshot/dots.png?raw=true)
-![tabs](https://github.com/FrancisCan/MaterialStepper/blob/master/screenshot/tabs.png?raw=true)
+![text](https://github.com/softfocusbr/material-stepper/blob/master/screenshot/text.png?raw=true)
+![progress](https://github.com/softfocusbr/material-stepper/blob/master/screenshot/progress.png?raw=true)
+![dots](https://github.com/softfocusbr/material-stepper/blob/master/screenshot/dots.png?raw=true)
+![tabs](https://github.com/softfocusbr/material-stepper/blob/master/screenshot/tabs.png?raw=true)
 
 # Stepper
 Extend one of these classes ```TextStepper```, ```ProgressStepper```, ```DotStepper```, ```TabStepper```
@@ -78,11 +78,11 @@ use alternative tab style
 
  - classic
 
- ![classic](https://github.com/FrancisCan/MaterialStepper/blob/master/screenshot/classic.png?raw=true)
+ ![classic](https://github.com/softfocusbr/material-stepper/blob/master/screenshot/classic.png?raw=true)
 
  - alternative
 
- ![alternative](https://github.com/FrancisCan/MaterialStepper/blob/master/screenshot/alternative.png?raw=true)
+ ![alternative](https://github.com/softfocusbr/material-stepper/blob/master/screenshot/alternative.png?raw=true)
 
 #### Toolbar getToolbar();
 get stepper toolbar
