@@ -1,7 +1,8 @@
 package com.github.fcannizzaro.materialstepper.adapter;
 
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.interfaces.Pageable;
@@ -34,6 +35,7 @@ public class PageAdapter extends FragmentPagerAdapter implements Pageable {
         notifyDataSetChanged();
     }
 
+    @NonNull
     @Override
     public AbstractStep getItem(int position) {
         return fragments.get(position);

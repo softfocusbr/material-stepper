@@ -2,8 +2,8 @@ package com.fcannizzaro.sample;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -11,7 +11,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button tabs, progress, text, dots, tabsNL, tabClassic;
-    private Toolbar toolbar;
 
 
     @Override
@@ -30,13 +29,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        tabs = (Button) findViewById(R.id.tabsL);
-        tabsNL = (Button) findViewById(R.id.tabs);
-        tabClassic = (Button) findViewById(R.id.tabClassic);
-        text = (Button) findViewById(R.id.text);
-        progress = (Button) findViewById(R.id.progress);
-        dots = (Button) findViewById(R.id.dots);
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        tabs = findViewById(R.id.tabsL);
+        tabsNL = findViewById(R.id.tabs);
+        tabClassic = findViewById(R.id.tabClassic);
+        text = findViewById(R.id.text);
+        progress = findViewById(R.id.progress);
+        dots = findViewById(R.id.dots);
+        Toolbar toolbar = findViewById(R.id.toolbar);
 
         tabs.setOnClickListener(this);
         tabsNL.setOnClickListener(this);

@@ -1,6 +1,6 @@
 package com.github.fcannizzaro.materialstepper.adapter;
 
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * @author Francesco Cannizzaro (fcannizzaro).

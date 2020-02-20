@@ -1,7 +1,7 @@
 package com.github.fcannizzaro.materialstepper.style;
 
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.R;
@@ -25,7 +25,7 @@ public class BasePager extends BaseStyle {
 
     protected void init() {
         super.init();
-        mPager = (ViewPager) findViewById(R.id.stepPager);
+        mPager = findViewById(R.id.stepPager);
         assert mPager != null;
         mPager.setAdapter((PagerAdapter) mPagerAdapter);
         mSteps.get(0).onStepVisible();

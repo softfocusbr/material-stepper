@@ -1,7 +1,7 @@
 package com.github.fcannizzaro.materialstepper;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 import com.github.fcannizzaro.materialstepper.interfaces.Nextable;
 import com.github.fcannizzaro.materialstepper.style.BaseStyle;
