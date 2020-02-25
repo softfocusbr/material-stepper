@@ -40,10 +40,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
         android:layout_toEndOf="@+id/icon"
-        android:layout_toRightOf="@+id/icon"
         android:orientation="vertical">
 
         <TextView
@@ -71,10 +69,8 @@
         android:layout_width="56dp"
         android:layout_height="1dp"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="24dp"
         android:layout_marginStart="24dp"
         android:layout_toEndOf="@+id/container_txt"
-        android:layout_toRightOf="@+id/container_txt"
         android:background="@color/material_stepper_connector" />
 
 </RelativeLayout>
